@@ -9,9 +9,6 @@ name: Java CI with Gradle
 
 on: [push, pull_request]
 
-permissions:
-  contents: read
-
 jobs:
   build:
 
