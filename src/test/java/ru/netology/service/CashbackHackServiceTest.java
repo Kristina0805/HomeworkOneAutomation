@@ -7,7 +7,7 @@ import static org.testng.Assert.*;
 
 public class CashbackHackServiceTest {
 
-    @org.testng.annotations.Test
+    @Test
     public void testRemain() {
 
         CashbackHackService service = new CashbackHackService();
@@ -21,7 +21,7 @@ public class CashbackHackServiceTest {
 
     }
 
-    @org.testng.annotations.Test
+    @Test
     public void testRemainTwo() {
 
         CashbackHackService service = new CashbackHackService();
@@ -34,7 +34,7 @@ public class CashbackHackServiceTest {
 
     }
 
-    @org.testng.annotations.Test
+    @Test
     public void remain() {
 
         CashbackHackService service = new CashbackHackService();
@@ -47,7 +47,7 @@ public class CashbackHackServiceTest {
         assertEquals(actual, expected);
     }
 
-    @org.testng.annotations.Test
+    @Test
     public void remainTwo() {
 
         CashbackHackService service = new CashbackHackService();
